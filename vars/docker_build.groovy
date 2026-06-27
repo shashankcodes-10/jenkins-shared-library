@@ -1,4 +1,4 @@
-def build(string imgName){
+def call(string imgName){
   
     sh "docker build -t "${imgName}" .
 
