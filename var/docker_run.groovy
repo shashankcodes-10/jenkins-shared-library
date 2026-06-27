@@ -1,0 +1,3 @@
+def run (){
+  sh "docker compose up -d --build "
+}
