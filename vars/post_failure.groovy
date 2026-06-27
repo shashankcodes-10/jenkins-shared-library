@@ -1,4 +1,4 @@
-def failure(){
+def notifyFailure(){
                     emailext(
                     from: "u10shashank@gmail.com",
                     to : "u10shashank@gmail.com",
