@@ -1,5 +1,5 @@
 def build(string imgName){
   
-    sh "docker build -t ${"imageName"} ."
+    sh "docker build -t "${imgname}" .
 
 }
