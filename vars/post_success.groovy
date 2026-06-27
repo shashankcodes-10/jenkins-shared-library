@@ -1,4 +1,4 @@
-def notifySuccess(){
+def call(){
   
                     emailext(
                     from: "u10shashank@gmail.com",
