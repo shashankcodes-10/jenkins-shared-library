@@ -1,4 +1,4 @@
-def push( string credId , string imgName){
+def call( string credId , string imgName){
   withCredentials([usernamePassword(
                     credentialsId:"${credId}",
                     usernameVariable:"dockerHubuser",
