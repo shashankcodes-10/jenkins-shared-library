@@ -1,3 +1,3 @@
 def call(){
-     sh " trivy fs --format table -o trivy-file-report-html --skip-dirs mysql-data . "
+     sh " trivy fs --format table -o trivy-file-report-html -skip-dirs mysql-data,dependency-check-data . "
 }
