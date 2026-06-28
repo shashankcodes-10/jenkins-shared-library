@@ -1,3 +1,3 @@
 def call(){
-     sh " trivy sh --format table -o trivy-file-report-html . "
+     sh " trivy fs --format table -o trivy-file-report-html . "
 }
